@@ -14,6 +14,15 @@ const player = document.querySelector('#vimeo-player');
 //     console.log('played the video!');
 // });
 
+document.querySelector('button.video').onclick = () => {
+
+	basicLightbox.create(`
+		<video controls data-id="2">
+			<source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
+		</video>
+	`).show()
+
+}
 
 
 
