@@ -8,4 +8,5 @@ session.addEventListener('click', () => {
     sessionStorage.setItem('session', 'test session')
 });
 
-console.log('Hello world!!!')
+console.log('Hello world!!!');
+console.log('commit');
