@@ -7,3 +7,5 @@ localStorage.setItem('local', 'test local')
 session.addEventListener('click', () => {
     sessionStorage.setItem('session', 'test session')
 });
+
+console.log('Hello world!!!')
